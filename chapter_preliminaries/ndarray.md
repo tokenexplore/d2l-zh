@@ -10,7 +10,7 @@
 无论使用哪个深度学习框架，它的*张量类*（在MXNet中为`ndarray`，
 在PyTorch和TensorFlow中为`Tensor`）都与Numpy的`ndarray`类似。
 但深度学习框架又比Numpy的`ndarray`多一些重要功能：
-首先，GPU很好地支持加速计算，而NumPy仅支持CPU计算；
+首先，GPU很好地支持加速计算，**而NumPy仅支持CPU计算；**
 其次，张量类支持自动微分。
 这些功能使得张量类更适合深度学习。
 如果没有特殊说明，本书中所说的张量均指的是张量类的实例。
